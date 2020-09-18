@@ -28,7 +28,7 @@ class BayesClassifier{
     
     fun getWordsFrequency(text: String): Map<String, Int>{
         val words = text.toLowerCase().split(" ").map { Regex("[^a-zA-Z]").replace( it , "") } as MutableList<String>
-        words.removeAll(Classifier.englishStopWords)
+        words.removeAll(englishStopWords)
         val corpus = words.groupingBy{ it }
             .eachCount()
 
