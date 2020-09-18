@@ -27,6 +27,8 @@ fun main() {
     val new = "I'm back &amp; we're packing the car now, I'll let you know if there's room" 
     
     println(classifier.predictClass(new))
+
+    println(classifier.getCorpus(BayesClassifier.CLASS_POSITIVE))
     
     
 }
