@@ -35,7 +35,7 @@ class BayesClassifier{
         return corpus
     }
 
-    fun addIntoCorpus(wf: Map<String, Int>, selectedClass:Int){
+    private fun addIntoCorpus(wf: Map<String, Int>, selectedClass:Int){
         wf.forEach{
             val word = it.key
             val frequency = it.value
