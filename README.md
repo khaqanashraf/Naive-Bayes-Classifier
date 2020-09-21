@@ -5,4 +5,6 @@ Here is the statistical implementation of Naive Bayes Classifier written in Kotl
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Contribution
-Khaqan Ashraf, Isha Umar
+Khaqan Ashraf
+
+Isha Umar
